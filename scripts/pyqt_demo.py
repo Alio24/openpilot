@@ -6,7 +6,7 @@ from selfdrive.ui.qt.python_helpers import set_main_window
 
 if __name__ == "__main__":
   app = QApplication([])
-  label = QLabel('Hello World!')
+  label = QLabel('Hello World')
 
   # Set full screen and rotate
   set_main_window(label)
